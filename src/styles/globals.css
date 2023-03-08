@@ -1,16 +1,18 @@
 html,
 body {
   overflow-x: hidden;
-  background: var(--background-color);
+  background: var(--backgroundColor);
   color: var(--fair-black);
   margin: 0;
   box-sizing: border-box;
+  color: var(--fairBlack);
 }
 
 :root {
-  --fair-black: rgb(22, 19, 19);
-  --background-color: rgb(235, 231, 231);
-  --hoverColor: rgb(46, 61, 143);
+  --fairBlack: #f1d302;
+  --backgroundColor: #191716;
+  --hoverColor: #c1292e;
+  --footerColor: #eff1f3;
 }
 
 /* width */
