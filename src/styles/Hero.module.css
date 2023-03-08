@@ -1,0 +1,36 @@
+.container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.smallTitle {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.7rem;
+  font-size: 1rem;
+
+  color: var(--hoverColor);
+  font-weight: bold;
+}
+.smallTitle > span {
+  margin-right: -4px;
+  z-index: 50;
+}
+
+.mainTitle > p {
+  text-transform: capitalize;
+  font-size: 4rem;
+  margin-top: -1px;
+}
+
+.mainTitle > h5 {
+  color: var(--hoverColor);
+}
