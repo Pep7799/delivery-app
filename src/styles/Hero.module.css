@@ -7,7 +7,7 @@
 .left {
   display: flex;
   flex-direction: column;
-  gap: 0.2rem;
+  gap: 2rem;
 }
 .smallTitle {
   display: flex;
@@ -31,6 +31,37 @@
   margin-top: -1px;
 }
 
-.mainTitle > h5 {
+.btn {
+  padding: 0.5rem 2.5rem;
+}
+
+.visit {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+  top: 6rem;
+  gap: 0.5rem;
   color: var(--hoverColor);
+  border-radius: 30px;
+  background-color: var(--footerColor);
+  left: 35rem;
+  padding: 0.5rem 1.5rem;
+}
+
+.visit:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.visit > div {
+  width: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  color: var(--fairBlack);
+  background: var(--backgroundColor);
+  border-radius: 30px;
 }

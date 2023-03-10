@@ -3,6 +3,7 @@ import React from "react";
 import css from "../styles/Hero.module.css";
 import icecream from "../assets/ic2.jpg";
 import animated from "../assets/animated.jpg";
+import { MdOutlineLocalOffer } from "react-icons/md";
 
 export const Hero = () => {
   return (
@@ -19,13 +20,22 @@ export const Hero = () => {
             Get your <br /> yummy cream <br /> as <br />
             fast as possible
           </p>
-          <h5>Do you know you can reach us here?</h5>
+          <button className={`btn ${css.btn}`}>Reach us here</button>
         </div>
       </div>
 
       {/* right */}
-      <div className={css.imageSection}>
-        <Image src={animated} alt="" />
+      <div className={css.right}>
+        <div className={css.imageSection}>
+          <Image src={animated} layout="intrinsic" alt="" />
+        </div>
+
+        <div className={css.visit}>
+          <span>Check today's offer</span>
+          <div>
+            <MdOutlineLocalOffer />
+          </div>
+        </div>
       </div>
     </div>
   );

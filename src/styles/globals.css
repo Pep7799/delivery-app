@@ -44,6 +44,21 @@ a {
   box-sizing: border-box;
   transition: all 300ms ease;
 }
+
+.btn {
+  color: var(--hoverColor);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  border: none;
+  background-color: var(--fairBlack);
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: var(--backgroundColor);
+}
 /*
 @media (prefers-color-scheme: dark) {
   :root {

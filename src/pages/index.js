@@ -5,6 +5,7 @@ import styles from "@/styles/Home.module.css";
 import Layout from "../components/Layout";
 import { Hero } from "@/components/Hero";
 import css from "../styles/Home.module.css";
+import Services from "@/components/Services";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,6 +14,7 @@ export default function Home() {
     <Layout>
       <div className={css.container}>
         <Hero />
+        <Services />
       </div>
     </Layout>
   );
