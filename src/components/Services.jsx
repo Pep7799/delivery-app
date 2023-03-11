@@ -13,15 +13,30 @@ const Services = () => {
         <span>Your favourite Ice-cream</span>
         {/* <span>To serve you better</span> */}
       </div>
-      <div>
-        <div>
-          <Image src={truck} />
+
+      <div className={css.services}>
+        <div className={css.eachService}>
+          <div>
+            <Image src={truck} className={css.imageContainer} />
+          </div>
+          <span>Fast delivery</span>
+          <span>Within 30-45minutes regardless of the distance</span>
         </div>
-        <div>
-          <Image src={free} />
+
+        <div className={css.eachService}>
+          <div>
+            <Image src={free} className={css.imageContainer} />
+          </div>
+          <span>Free flavor</span>
+          <span>Free flavor for best customer of the week!</span>
         </div>
-        <div>
-          <Image src={flavor} />
+
+        <div className={css.eachService}>
+          <div>
+            <Image src={flavor} className={css.imageContainer} />
+          </div>
+          <span>Varieties</span>
+          <span>Varieties of flavor to catch up from</span>
         </div>
       </div>
     </div>
