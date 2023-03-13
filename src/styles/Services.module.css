@@ -42,3 +42,6 @@
   font-size: 25px;
   margin-bottom: -10px;
 }
+.eachService > :nth-child(3) {
+  font-style: italic;
+}

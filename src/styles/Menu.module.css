@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 5rem;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  justify-content: flex-start;
+  color: var(--footerColor);
+}
+
+.heading > :nth-child(1) {
+  font-size: 2.5rem;
+  margin-bottom: 0.2rem;
+}
+
+.heading > :nth-child(2) {
+  color: var(--fairBlack);
+  font-style: italic;
+  font-size: 22px;
+  text-shadow: 2px 1px var(--footerColor);
+}
+.heading > :nth-child(3) {
+  color: var(--fairBlack);
+  font-style: italic;
+}
