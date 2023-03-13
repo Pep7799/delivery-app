@@ -28,3 +28,11 @@
   color: var(--fairBlack);
   font-style: italic;
 }
+
+.icecreamImage {
+  height: 20rem;
+  width: 14rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+}
