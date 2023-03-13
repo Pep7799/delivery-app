@@ -29,10 +29,42 @@
   font-style: italic;
 }
 
+.iceMenu {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .icecreamImage {
-  height: 20rem;
-  width: 14rem;
+  height: 21rem;
+  width: 15rem;
   position: relative;
   overflow: hidden;
-  border-radius: 1rem;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+.iceName {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: var(--footerColor);
+  font-size: 1.5rem;
+}
+
+.icePrice {
+  color: var(--footerColor);
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icecreamMenu:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }
