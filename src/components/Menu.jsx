@@ -1,11 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import { urlFor } from "../../library/client";
+import { urlFor } from "../../lib/client";
 import css from "../styles/Menu.module.css";
 import Link from "next/link";
 
 export const Menu = ({ icecreams }) => {
-  console.log(icecreams);
   return (
     <div className={css.container}>
       <div className={css.heading}>
@@ -20,7 +19,7 @@ export const Menu = ({ icecreams }) => {
           const src = urlFor(icecream.image).url();
           return (
             <div className={css.icecreamMenu} key={id}>
-              <Link href={`./icecream/${icecream.slug.current}`}>
+              <Link href={`${icecream.slug.current}`}>
                 <div className={css.icecreamImage}>
                   <Image
                     loader={() => src}

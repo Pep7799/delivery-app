@@ -7,7 +7,7 @@ import { Hero } from "@/components/Hero";
 import css from "../styles/Home.module.css";
 import Services from "@/components/Services";
 import icecream from "../../sanity/schemas/icecream";
-import { client } from "../../library/client";
+import { client } from "../../lib/client";
 import { Menu } from "@/components/Menu";
 
 const inter = Inter({ subsets: ["latin"] });
