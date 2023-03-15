@@ -19,7 +19,7 @@ export const Menu = ({ icecreams }) => {
           const src = urlFor(icecream.image).url();
           return (
             <div className={css.icecreamMenu} key={id}>
-              <Link href={`${icecream.slug.current}`}>
+              <Link href={`./icecream/${icecream.slug.current}`}>
                 <div className={css.icecreamImage}>
                   <Image
                     loader={() => src}

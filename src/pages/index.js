@@ -5,7 +5,7 @@ import styles from "@/styles/Home.module.css";
 import Layout from "../components/Layout";
 import { Hero } from "@/components/Hero";
 import css from "../styles/Home.module.css";
-import Services from "@/components/Services";
+import Services from "../components/Services";
 import icecream from "../../sanity/schemas/icecream";
 import { client } from "../../lib/client";
 import { Menu } from "@/components/Menu";
